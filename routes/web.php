@@ -29,6 +29,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/languageDemo', 'App\Http\Controllers\HomeController@languageDemo');
 
 Route::get('/portfolio', function(){
+    
     return view('portfolio');
 });
 
